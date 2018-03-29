@@ -23,6 +23,37 @@
   </tbody>
 </table>
   </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2> Add a new player </h2>
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button type="button" class="btn btn-primary btn-lg btn-block">Add a player</button>
+    </div>
+    <div class="col-sm">
+     <h2> Add Games </h2>
+     <select>
+  <option value="volvo">Game 1</option>
+  <option value="saab">Game 2</option>
+  <option value="opel">Game 3</option>
+  <option value="audi">Game 4</option>
+</select>
+Vs
+<select>
+  <option value="volvo">Game 1</option>
+  <option value="saab">Game 2</option>
+  <option value="opel">Game 3</option>
+  <option value="audi">Game 4</option>
+</select>
+ <button type="button" class="btn btn-primary btn-lg btn-block">Add Set</button>
+     <button type="button" class="btn btn-primary btn-lg btn-block">Add Game</button>
+    </div>
+    <div class="col-sm">
+      <h2> Latest Games </h2>
+    </div>
+  </div>
+</div>
+
   </div>
 </template>
 
